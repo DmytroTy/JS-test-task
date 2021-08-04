@@ -3,6 +3,12 @@
   justify-content: center;
 }
 
+.point-center, .point-left, .point-right, .two-point {
+  width: 150px;
+  height: 40px;
+  display: flex;
+}
+
 .cube {
   display: flex;
   flex-wrap: wrap;
@@ -22,17 +28,11 @@
   border-radius: 50%;
 }
 
-.point-center, .point-left, .point-right, .two-point {
-  width: 150px;
-  height: 40px;
-  display: flex;
-}
-
 .point-center {
   justify-content: center;
 }
 
-#one {
+.one {
   align-content: center;
 }
 
