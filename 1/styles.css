@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.cube {
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  align-content: space-between;
+  margin: 30px;
+  width: 150px;
+  height: 150px;
+  border: 10px solid black;
+  border-radius: 20%;
+  padding: 20px;
+}
+
+.point {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.point-center, .point-left, .point-right, .two-point {
+  width: 150px;
+  height: 40px;
+  display: flex;
+}
+
+.point-center {
+  justify-content: center;
+  /* align-self: center; */
+}
+
+#one {
+  align-content: center;
+}
+
+.point-left {
+  justify-content: flex-start;
+}
+
+.point-right {
+  justify-content: flex-end;
+}
+
+.two-point {
+  justify-content: space-between;
+}
